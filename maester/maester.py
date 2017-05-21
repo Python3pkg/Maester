@@ -11,9 +11,9 @@ import os
 import sys
 
 from appium import webdriver
-import _init
-import _get_devices
-import _ui_elements_helper
+from . import _init
+from . import _get_devices
+from . import _ui_elements_helper
 
 class new_maester:
     _apk_path = ""

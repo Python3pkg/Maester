@@ -6,7 +6,7 @@
 # This module returns information about the connected phones such as the udids,
 # model, and name.  
 
-import _init
+from . import _init
 import string
 import os
 
